@@ -1,0 +1,115 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: 279px;
+}
+footer {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    top: 830px;
+}
+footer > p {
+    height: 50px;
+}
+.navbar {
+    background-color: #D84040;
+    position: fixed;
+    z-index: 1;
+}
+.nav-item {
+    font-size:x-large;
+    font-family: "Chakra Petch", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.content-body, .content-body2, .content-body3 {
+    background-color: #1D1616;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.body-text {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    display: block;
+    align-items: center;
+}
+.body-text > h1 {
+    margin: 0px 0px 0px 20px;
+    color:#ffffff;
+    font-family: "Chakra Petch", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.body-text > p, ul {
+    margin: 0px 0px 0px 20px;
+    color:#ffffff;
+    font-family: "Chakra Petch", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.art-gallery, .fanart-gallery {
+    background-color: #1D1616;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color:#ffffff;
+    font-family: "Chakra Petch", serif;
+    font-weight: 700;
+    font-style: normal;   
+}
+.art-gallery > h1 {
+    margin: auto;
+}
+.fanart-gallery > h1 {
+    margin: auto;
+}
+.art {
+    background-color: #1D1616;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px
+}
+
+@media screen and (max-width: 800px) { 
+    .content-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .body-text > p {
+        margin: 10px;
+        padding: 0px 0px 0px 0px;
+    }
+}
